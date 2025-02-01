@@ -2,6 +2,9 @@
 An utility plugin for making life easier while using flutter freezed.
 
 ### What it does:
+
+https://github.com/user-attachments/assets/b8298775-b526-488c-a02c-71b17fa33d28
+
 - Provides useful macros for freezed.
     - frc - Generates the boilerplate for a freezed class
     - frf - Generated the boilerplate for a freezed file
