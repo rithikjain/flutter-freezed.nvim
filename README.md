@@ -14,7 +14,7 @@ An utility plugin for making life easier while using flutter freezed.
 ### Sample config with lazy:
 ```
 return {
-  dir = "~/Development/neovim-plugins/flutter-freezed.nvim",
+  "rithikjain/flutter-freezed.nvim",
   dependencies = {
     "L3MON4D3/LuaSnip",
   },
