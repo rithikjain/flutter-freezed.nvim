@@ -1,1 +1,11 @@
 local plugin = require("flutter-freezed")
+
+vim.api.nvim_create_user_command("FlutterFreezedGenForCurrentFile", function()
+  plugin.runBuildRunnerOnCurrentFile()
+end, {})
+vim.api.nvim_create_user_command("FlutterFreezedStopGen", function()
+  plugin.terminateJob()
+end, {})
+vim.api.nvim_create_user_command("FlutterFreezedInfoToggle", function()
+  plugin.toggleInfoBuffer()
+end, {})
